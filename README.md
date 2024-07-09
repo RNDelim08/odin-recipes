@@ -1,0 +1,1 @@
+This first Odin project is a recipe website containing three favorite Filipino recipes of the author. This project aims to showcase the author's basic HTML knowledge such as adding working links, images, ordered and unordered lists, headings, paragraphs, etc., as well as basic knowledge in navigating Git to save files locally and remotely. 
