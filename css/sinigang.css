@@ -1,0 +1,60 @@
+body {
+    background-color: #f4d4ab;
+    font-family: Tahoma, sans-serif;
+}
+
+h1 {
+    background-color: #f8c981;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #324501;
+    text-align: left;
+}
+
+h2 {
+    background-color: #837a24;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 42px;
+    color: #f4d4ab;
+    text-align: left;
+}
+
+p {
+    font-family: Tahoma, sans-serif;
+    font-size: 26px;
+    color: #453e04;
+    text-align: justify;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: #FED8B1;
+    text-align: left;
+}
+
+.ingredients li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+    color: #837a24;
+}
+
+ol.steps {
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+    color: #453e04;
+    text-align: left;
+}
+
+.steps > li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+em {
+    color: #8e3f0a;
+}
+
+.bordered {
+    border: 5px solid #2E2E2E;
+}

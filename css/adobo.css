@@ -1,0 +1,60 @@
+body {
+    background-color: #5D3A1A;
+    font-family: Tahoma, sans-serif;
+}
+
+h1 {
+    background-color: #2E2E2E;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: #D94C4C;
+    text-align: left;
+}
+
+h2 {
+    background-color: #2E2E2E;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 42px;
+    color: gray;
+    text-align: left;
+}
+
+p {
+    font-family: Tahoma, sans-serif;
+    font-size: 26px;
+    color: #F5F5F5;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: #FED8B1;
+    text-align: left;
+}
+
+.ingredients li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+    color: darkorange;
+}
+
+ol.steps {
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+    color: #F5F5F5;
+    text-align: left;
+}
+
+.steps > li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+em {
+    color: darkorange;
+}
+
+.bordered {
+    border: 5px solid #2E2E2E;
+}

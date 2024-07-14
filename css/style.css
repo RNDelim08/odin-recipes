@@ -1,0 +1,30 @@
+body {
+    background-color: #6F4E37;
+    font-family: "Courier New", sans-serif;
+}
+
+h1 {
+    color: #ECB176;
+    background-color: #A67B5B;
+    text-align: center;
+    font-size: 72px;
+}
+
+li,
+a {
+    color: #ECB176;
+    font-size: 28px;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #A67B5B;
+    text-decoration-color: #6F4E37;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+
