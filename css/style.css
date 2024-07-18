@@ -1,30 +1,61 @@
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: #6F4E37;
-    font-family: "Courier New", sans-serif;
+    background-color: #28282B;
 }
 
-h1 {
-    color: #ECB176;
-    background-color: #A67B5B;
-    text-align: center;
-    font-size: 72px;
+.header {
+   
+    margin: 100px auto 20px;
+    padding: 1em;
 }
 
-li,
-a {
-    color: #ECB176;
-    font-size: 28px;
+.odin-recipes {
+    font-family: Arial, sans-serif;
+    font-size: 100px;
+    color: white;
     text-align: center;
+}
+
+.recipe-list li a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    display: block;
+    padding: 50px;
+}
+
+.recipe-list li a:hover {
+    color: black;
+    padding: 50px;
+    background-color: white;
+}
+
+.recipe-list li {
+    width: 500px;
+    margin: 10px auto;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    font-family: 'Courier New',Courier,monospace; 
     list-style-type: none;
-    margin-bottom: 15px;
+    border: 5px solid white;
 }
 
-a {
-    color: #A67B5B;
-    text-decoration-color: #6F4E37;
-    font-family: Tahoma, sans-serif;
-    font-weight: bold;
+.recipe-list li:hover {
+    border: 5px solid white;
 }
+
 
 
 
